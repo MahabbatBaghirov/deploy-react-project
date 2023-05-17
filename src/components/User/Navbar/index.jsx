@@ -63,7 +63,7 @@ const UserNavbar = () => {
     
     <>
     <Helmet>
-    <title>Turbo Todo</title>
+    <title>User Navbar</title>
     <meta name="description" content="test on react-helmet" />
     <meta name="theme-color" content="#ccc" />
     </Helmet>
