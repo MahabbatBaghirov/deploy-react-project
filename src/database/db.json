@@ -1,0 +1,32 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "url": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2012/03/21/20/pg-72-messi-ap.jpg",
+            "name": "Leo Messi",
+            "position": "Midfielder",
+            "salary": 3000
+        },
+        {
+            "id": 2,
+            "url": "https://imgnew.outlookindia.com/public/uploads/articles/2021/2/26/Zlatan-Celeb-Milan-AP_570_850.jpg",
+            "name": "Zlatan Ibrahimovic",
+            "position": "Forward",
+            "salary": 10000
+        },
+        {
+            "id": 3,
+            "url": "https://www.fcbarcelona.com/photo-resources/2022/11/02/85247947-27dc-488c-a6cb-d81c5e391559/09-ROBERT_LEWANDOWSKI.jpg?width=1200&height=750",
+            "name": "Robert Lewandowski",
+            "position": "Forward",
+            "salary": 20000
+        },
+        {
+            "id": 4,
+            "url": "https://i2-prod.manchestereveningnews.co.uk/incoming/article26765803.ece/ALTERNATES/s1200c/0_GettyImages-1484764260.jpg",
+            "name": "Erling Haaland",
+            "position": "Forward",
+            "salary": 40000
+        }
+    ]
+}

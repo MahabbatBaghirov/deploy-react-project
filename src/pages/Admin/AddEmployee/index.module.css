@@ -1,0 +1,9 @@
+.titles {
+    text-align: center;
+    margin: 30px 0;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
