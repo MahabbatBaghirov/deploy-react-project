@@ -2,6 +2,7 @@ import Button from '@mui/material/Button';
 import style from './index.module.css';
 import { useFavorite } from '../../../contexts/FavoritesContext';
 import { Table } from '@mui/material';
+import Helmet from 'helmet';
 
 const Favorites = () => {
 
@@ -57,6 +58,11 @@ const Favorites = () => {
 
   return (
     <>
+    <Helmet>
+    <title>Turbo Todo</title>
+    <meta name="description" content="test on react-helmet" />
+    <meta name="theme-color" content="#ccc" />
+</Helmet>
     <h4 className={style.employees_title}>Favourites</h4>
     <Button sx={{background:"white",color:"black",border:"1px solid blue",display:"block",margin:"0 auto"}} onClick={()=>{clearAll()}}>Clear All</Button>
     <Table style={{width:"90%",margin:"30px auto"}} columns={columns} dataSource={favorites} />

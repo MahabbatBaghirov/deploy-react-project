@@ -56,6 +56,8 @@ import style from './index.module.css';
 
 const AdminNavbar = () => {
   return (
+    <>
+   
     <Box sx={{ flexGrow: 1, backgroundColor:"yellow" }}>
       <AppBar position="static" sx={{background: "rgb(2,0,36) linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(158,160,167,1) 0%, rgba(90,203,135,1) 29%, rgba(87,203,138,1) 31%, rgba(0,212,255,1) 68%)"}}>
         <Toolbar>
@@ -88,6 +90,7 @@ const AdminNavbar = () => {
         </Toolbar>
       </AppBar>
     </Box>
+    </>
 
   )
 }

@@ -10,6 +10,7 @@ import { getAllEmployee } from '../../../api/requests';
 import style from './index.module.css';
 import { Link } from 'react-router-dom';
 import { useFavorite } from '../../../contexts/FavoritesContext';
+import Helmet from 'helmet';
 
 
 const Employees = () => {
@@ -34,6 +35,11 @@ const Employees = () => {
 
   return (
     <>
+    <Helmet>
+    <title>Turbo Todo</title>
+    <meta name="description" content="test on react-helmet" />
+    <meta name="theme-color" content="#ccc" />
+    </Helmet>
     <h4 className={style.employees_title}>Employees</h4>
     <div className={style.card}>
 
