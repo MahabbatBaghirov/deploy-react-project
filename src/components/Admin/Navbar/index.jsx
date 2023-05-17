@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
 import style from './index.module.css';
+import Helmet from 'helmet';
 // import styled from '@emotion/styled';
 // import { alpha } from '@mui/material';
 
@@ -57,6 +58,11 @@ import style from './index.module.css';
 const AdminNavbar = () => {
   return (
     <>
+    <Helmet>
+    <title>Turbo Todo</title>
+    <meta name="description" content="test on react-helmet" />
+    <meta name="theme-color" content="#ccc" />
+</Helmet>
    
     <Box sx={{ flexGrow: 1, backgroundColor:"yellow" }}>
       <AppBar position="static" sx={{background: "rgb(2,0,36) linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(158,160,167,1) 0%, rgba(90,203,135,1) 29%, rgba(87,203,138,1) 31%, rgba(0,212,255,1) 68%)"}}>
